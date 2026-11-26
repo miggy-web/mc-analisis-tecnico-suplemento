@@ -1,0 +1,33 @@
+{
+ "spy_1d": {
+  "nombre": "SPY (SPDR S&P 500 ETF Trust), diario",
+  "mercado": "NYSE Arca",
+  "proveedor": "Yahoo Finance, API pública de gráficos v8",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1072915200&period2=1767225600&interval=1d&events=div%2Csplit",
+  "rango_solicitado_utc": "period1=1072915200 (2004-01-01) → period2=1767225600 (2026-01-01)",
+  "ultima_fecha": "2025-12-31",
+  "sesion": "regular, fecha de la sesión en America/New_York",
+  "campos_csv": "fecha, open, high, low, close (sin ajustar por dividendos; Yahoo los ajusta por splits), dividendo (importe en la fecha ex, 0 si no hay)",
+  "ajuste_aplicado_en_el_codigo": "retroajuste multiplicativo por dividendos anclado a 2025-12-31: factor(t) = Π_{ex > t} (1 − D_ex / C_{ex−1}), aplicado a O, H, L y C",
+  "archivo_crudo": "spy_yahoo_1d_2004_2025_crudo.json",
+  "archivo_csv": "spy_yahoo_1d_2004_2025_sin_ajustar.csv",
+  "sha256_csv": "ba1b7e0165e8dc5e166d37bef9b085d28df27b68f71b860143ddbbd765e65df2",
+  "licencia": "Condiciones de Yahoo: uso personal. NO se redistribuye. Este paquete solo contiene la receta, el código y la huella."
+ },
+ "gspc_1d": {
+  "nombre": "Índice S&P 500 (^GSPC), diario",
+  "proveedor": "Yahoo Finance, API pública de gráficos v8",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1638316800&period2=1675209600&interval=1d",
+  "rango_solicitado_utc": "period1=1638316800 (2021-12-01) → period2=1675209600 (2023-02-01)",
+  "sesion": "regular, fecha de la sesión en America/New_York",
+  "campos_csv": "fecha, high, low",
+  "uso": "swings n = 5 de 2022 para 9.2 (los 30 extremos coinciden con los del libro, comprobado por la huella de la lista de swings)",
+  "archivo_crudo": "gspc_yahoo_1d_2021_2023_crudo.json",
+  "archivo_csv": "gspc_yahoo_1d_2021_2023.csv",
+  "sha256_csv": "64aca8c4c820c018ef3cfcc2e147e2bd3b0b27db08e06005734bca18460b4287",
+  "sha256_lista_swings_2022_n5": "c53c2eb720800da11a843cc839c6f026e7eff548b9e2d09e9ce6551000b43b69",
+  "licencia": "Condiciones de Yahoo: uso personal. Los valores del índice pertenecen a S&P Dow Jones Indices. NO se redistribuyen: ni la serie ni los precios de anclaje.",
+  "formato_lista_swings": "una línea por swing, ordenadas por fecha: «AAAA-MM-DD|H o L|precio con 2 decimales»; swings n = 5 estrictos (5 velas a cada lado, sin empates) sobre high/low, con fecha en 2022"
+ },
+ "comprobado": "SHA-256 de los dos CSV idénticos en dos descargas independientes el 26-11-2026 (Europe/Madrid)"
+}

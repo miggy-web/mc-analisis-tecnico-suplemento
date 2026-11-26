@@ -1,0 +1,35 @@
+{
+ "sha_lista_swings": "c53c2eb720800da11a843cc839c6f026e7eff548b9e2d09e9ce6551000b43b69",
+ "n_swings": 30,
+ "n_trios": 28,
+ "n_excluidos": 4,
+ "n_medibles": 24,
+ "n_supera_100": 13,
+ "n_elegibles": 11,
+ "toques": 2,
+ "cobertura_7niv": 0.12,
+ "esperado": 1.3199999999999998,
+ "p_binomial": 0.3872978527793153,
+ "media_toques_aleatorios": 1.05207,
+ "p_niveles_aleatorios": 0.2872,
+ "NSIM": 100000,
+ "semilla": 20261126,
+ "excluidos": [
+  {
+   "trio": 6,
+   "motivo": "excluido: dos extremos del mismo tipo seguidos (B-C)"
+  },
+  {
+   "trio": 7,
+   "motivo": "excluido: dos extremos del mismo tipo seguidos (A-B)"
+  },
+  {
+   "trio": 25,
+   "motivo": "excluido: dos extremos del mismo tipo seguidos (B-C)"
+  },
+  {
+   "trio": 26,
+   "motivo": "excluido: dos extremos del mismo tipo seguidos (A-B)"
+  }
+ ]
+}

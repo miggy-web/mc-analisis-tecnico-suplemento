@@ -1,0 +1,6 @@
+1.0.0
+Suplemento reproducible de «MC Análisis Técnico» (MIGGY CAPITAL).
+Cifras verificadas contra la edición auditada del interior: 428 págs., PDF interior completo color FOGRA51,
+SHA-256 7e89d0a66eac10a27a3daadc6e6b13ac76b5f9024c31b013f87e427f88eeb193 (26-11-2026).
+Interior final (tras cerrar AT-01 a AT-10): SHA-256 PENDIENTE — Editorial lo anota aquí al exportar el interior definitivo.
+Las cifras comprobadas por run_all.py no cambian con las correcciones de redacción de AT-08 y AT-09.

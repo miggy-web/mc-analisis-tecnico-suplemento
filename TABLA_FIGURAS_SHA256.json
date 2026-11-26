@@ -1,0 +1,760 @@
+{
+ "version": "1.0.0",
+ "figuras": [
+  {
+   "figura": "Bancos simulados",
+   "paginas_428p": "9, 309–310",
+   "carpeta": "resultados/e00_bancos",
+   "archivos": {
+    "e00_bancos/bancos.json": "50e9c7aa2be1b1d044feb6a38452a92edc2d273aa7d256ff5b9bad9e9f347608",
+    "e00_bancos/bancos.md": "01c36d05b6a27cfc33c953f12990259869478ab805fda09b19114986eed518e8"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "Bancos (págs. 9 y 309)",
+     "cifra": "banco general, velas",
+     "archivo": "e00_bancos/bancos.json",
+     "impreso": 12000,
+     "calculado": 12000,
+     "ok": true
+    },
+    {
+     "figura": "Bancos (págs. 9 y 309)",
+     "cifra": "banco de 14.2, velas",
+     "archivo": "e00_bancos/bancos.json",
+     "impreso": 15000,
+     "calculado": 15000,
+     "ok": true
+    },
+    {
+     "figura": "Bancos (págs. 9 y 309)",
+     "cifra": "banco de 8.3, velas",
+     "archivo": "e00_bancos/bancos.json",
+     "impreso": 96000,
+     "calculado": 96000,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "3.6.3 · precisión y caja 16",
+   "paginas_428p": "94–97",
+   "carpeta": "resultados/e01_precision_3_6",
+   "archivos": {
+    "e01_precision_3_6/precision_3_6.md": "c308c0b9b052424bdc9326ab7c1bcb1486eaf3bf2b9caf441043f20b548855b3",
+    "e01_precision_3_6/resultados_3_6.json": "aef78049d614dca883c623ae3a2f85b362442b406a12a1d21f895ca61e1389bf"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "z²·p(1−p)/e², e = 0,05",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 384.16,
+     "calculado": 384.16,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "e = 0,02",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 2401,
+     "calculado": 2401.0,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "e = 0,10",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 96.04,
+     "calculado": 96.04,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "martillos (k = 2) en 12.000 velas",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 49,
+     "calculado": 49,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "una de cada",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 245,
+     "calculado": 245,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "245 × 384",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 94080,
+     "calculado": 94080,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16",
+     "cifra": "margen con 49",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 0.14,
+     "calculado": 0.13999999999999999,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "7.3.1 · matriz de 18 osciladores",
+   "paginas_428p": "166–170",
+   "carpeta": "resultados/e02_matriz_osciladores_7_3",
+   "archivos": {
+    "e02_matriz_osciladores_7_3/matriz_osciladores_153_parejas.csv": "1a3b02d5c60dda3c6757361febbf58a1d9d30a4816c29fedb7f036b8ed781b03",
+    "e02_matriz_osciladores_7_3/matriz_osciladores_7_3.md": "405a0fe4490a85d0747c92c8757c509ecd8097974dc59b33e6ea0d079e58dd27",
+    "e02_matriz_osciladores_7_3/resultados_7_3.json": "612be3bf66ad67f3da814f62670fad65fbc2263c4c9986aa69cd46af40e45489"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "7.3.1",
+     "cifra": "osciladores",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 18,
+     "calculado": 18,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1",
+     "cifra": "parejas",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 153,
+     "calculado": 153,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1",
+     "cifra": "series por celda",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 60,
+     "calculado": 60,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1",
+     "cifra": "r estocástico–RSI",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 0.68,
+     "calculado": 0.6802313082196949,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1",
+     "cifra": "r CMO–RSI",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 0.81,
+     "calculado": 0.8134392943700378,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1",
+     "cifra": "r MACD–RSI",
+     "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
+     "impreso": 0.62,
+     "calculado": 0.6244044949332339,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "7.4.1 · divergencias",
+   "paginas_428p": "171–173",
+   "carpeta": "resultados/e03_divergencias_7_4",
+   "archivos": {
+    "e03_divergencias_7_4/eventos_divergencias_regulares.csv": "8b8b9503f115578f86fc4340587162f1334306523497ca37e1c1249f33b9cea8",
+    "e03_divergencias_7_4/resultados_7_4.json": "18c6b6362e5eafd1586286261fb3f3c422e524f8af3ac48745ebd0b2558f6736",
+    "e03_divergencias_7_4/tabla_divergencias_7_4.csv": "872fd583d83ee61e4329c2f07206ed559175f4fc69b3154b2b8e1200ab0b8696",
+    "e03_divergencias_7_4/tabla_divergencias_7_4.md": "59ad35461a442b56e81e07d5ca84032aa76902b1ca51ad0f3ce95ec0b29c1895"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "7.4.1",
+     "cifra": "alcistas regulares N",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 117,
+     "calculado": 117,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "alcista sube %",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 42.74,
+     "calculado": 42.73504273504273,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "base alcista %",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 40.84,
+     "calculado": 40.8408207439943,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "Δ alcista pp",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 1.89,
+     "calculado": 1.8942219910484337,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "IC alcista inferior",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": -4.85,
+     "calculado": -4.846097322992284,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "IC alcista superior",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 8.56,
+     "calculado": 8.561402339469758,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "p alcista",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 0.568,
+     "calculado": 0.5680431956804319,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "bajistas regulares N",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 155,
+     "calculado": 155,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "bajista baja %",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 26.45,
+     "calculado": 26.451612903225808,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "base bajista %",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 20.07,
+     "calculado": 20.07118539906214,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "Δ bajista pp",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 6.38,
+     "calculado": 6.380427504163666,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "IC bajista inferior",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": -0.37,
+     "calculado": -0.3652382752613356,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "IC bajista superior",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 12.55,
+     "calculado": 12.545983088460272,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1",
+     "cifra": "p bajista",
+     "archivo": "e03_divergencias_7_4/resultados_7_4.json",
+     "impreso": 0.054,
+     "calculado": 0.05449455054494551,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "8.3.1 · compresión del ATR%",
+   "paginas_428p": "194–198",
+   "carpeta": "resultados/e04_compresion_8_3",
+   "archivos": {
+    "e04_compresion_8_3/diagnostico_estado_vs_contraccion_8_3.md": "7766055f66827f49b001c34480250ac81278f4877c107bff44e2a9f7f5b68cff",
+    "e04_compresion_8_3/eventos_y_controles_compresion_8_3.csv": "e5e3969b42aae27059102b4f29838252987be1655cde675c56e9fdd83253c9ee",
+    "e04_compresion_8_3/resultados_8_3.json": "8f582e5ea07029ab51c591634b871cacb505a54ae5d4a79b09c0c874f8935458",
+    "e04_compresion_8_3/tabla_compresion_atr_8_3.csv": "5a084f79d0bc768be459e0f906a6f8a031bf129b9b4016dfccf490d20b0835ee",
+    "e04_compresion_8_3/tabla_compresion_atr_8_3.md": "7f2bbc831fd6eea8ee3da24abc39fe19efcdde199aab10987eac5318df214d00"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "8.3.1",
+     "cifra": "compresiones",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 1925,
+     "calculado": 1925,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "controles",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 1822,
+     "calculado": 1822,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "ATR 20 / ATR 0, compresión",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 1.052,
+     "calculado": 1.0515883867390345,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "ATR 20 / ATR 0, control",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.991,
+     "calculado": 0.9912445953099536,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "Δ ATR",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.06,
+     "calculado": 0.06034379142908097,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ ATR inferior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.054,
+     "calculado": 0.05402310267640264,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ ATR superior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.066,
+     "calculado": 0.06612818467767158,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "p Δ ATR < 0,001",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": "<0.001",
+     "calculado": 9.999000099990002e-05,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "recorrido absoluto %, compresión",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 2.609,
+     "calculado": 2.608654214538517,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "recorrido absoluto %, control",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 2.581,
+     "calculado": 2.5809070434398214,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "Δ recorrido",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.028,
+     "calculado": 0.027747171098695844,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ recorrido inferior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": -0.046,
+     "calculado": -0.04583565118809031,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ recorrido superior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.093,
+     "calculado": 0.09317292776106464,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "sube %, compresión",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 72.99,
+     "calculado": 72.98701298701299,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "sube %, control",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 76.61,
+     "calculado": 76.6106604387429,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "Δ sube pp",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": -3.62,
+     "calculado": -3.6236474517299055,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ sube inferior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": -5.9,
+     "calculado": -5.904389319913947,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "IC Δ sube superior",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": -1.14,
+     "calculado": -1.1390236960989695,
+     "ok": true
+    },
+    {
+     "figura": "8.3.1",
+     "cifra": "p sube",
+     "archivo": "e04_compresion_8_3/resultados_8_3.json",
+     "impreso": 0.003,
+     "calculado": 0.0028997100289971,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "9.2 y 9.2.2 · Fibonacci, 28 tríos",
+   "paginas_428p": "209–213",
+   "carpeta": "resultados/e05_fibonacci_9_2",
+   "archivos": {
+    "e05_fibonacci_9_2/resultados_9_2.json": "e29a03ff181d6e397e193b42eea65a449a34915747714c2a817c33202e3f9f6e",
+    "e05_fibonacci_9_2/tabla_fibonacci_28_trios.csv": "5b2d38cfc5a754eb286be7689a0030342887fedbb3032f07c1acf8e8fa06246d",
+    "e05_fibonacci_9_2/tabla_fibonacci_28_trios.md": "16f35dfaa890a9170824ff50c23474ad7b597f924139c7bffa53be9a2b995d5f"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "tríos",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 28,
+     "calculado": 28,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "excluidos",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 4,
+     "calculado": 4,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "medibles",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 24,
+     "calculado": 24,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "superan el 100 %",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 13,
+     "calculado": 13,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "elegibles",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 11,
+     "calculado": 11,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "toques",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 2,
+     "calculado": 2,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "cobertura",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 0.12,
+     "calculado": 0.12,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "esperados",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 1.32,
+     "calculado": 1.3199999999999998,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "P(X ≥ 2)",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 0.3873,
+     "calculado": 0.3872978527793153,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "media con niveles al azar",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 1.052,
+     "calculado": 1.05207,
+     "ok": true
+    },
+    {
+     "figura": "9.2 (pág. 211) y 9.2.2",
+     "cifra": "p niveles al azar",
+     "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
+     "impreso": 0.2872,
+     "calculado": 0.2872,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "14.2.1 y 14.2.2 · 464 variantes",
+   "paginas_428p": "312–317",
+   "carpeta": "resultados/e06_sobreajuste_14_2",
+   "archivos": {
+    "e06_sobreajuste_14_2/registro_464_variantes.csv": "517b7f6a8f6d887e0ff25809280bb677640090f370a321d25cfa1243fa1e2bef",
+    "e06_sobreajuste_14_2/resultados_14_2.json": "39d8352b0bbdfcc1ecc53aa46fc26ecfb5bc0e024ad96bbae50122d0abde8efa",
+    "e06_sobreajuste_14_2/sobreajuste_14_2.md": "84097c62a9f967d7edc3e11dde4869c84376a91464d226ae09fbb126c5d23529"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "14.2.1",
+     "cifra": "combinaciones",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 480,
+     "calculado": 480,
+     "ok": true
+    },
+    {
+     "figura": "14.2.1",
+     "cifra": "válidas",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 464,
+     "calculado": 464,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: R dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 0.2,
+     "calculado": 0.2,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: ops dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 10,
+     "calculado": 10,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: R fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": -0.556,
+     "calculado": -0.5555555555555556,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: ops fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 18,
+     "calculado": 18,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: rápida",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 20,
+     "calculado": 20,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "sin mínimo: lenta",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 30,
+     "calculado": 30,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: R dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 0.032,
+     "calculado": 0.03225806451612903,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: ops dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 93,
+     "calculado": 93,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: R fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": -0.228,
+     "calculado": -0.22772277227722773,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: ops fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 101,
+     "calculado": 101,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: rápida",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 5,
+     "calculado": 5,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 30: lenta",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 20,
+     "calculado": 20,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: R dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": -0.017,
+     "calculado": -0.01652892561983471,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: ops dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 242,
+     "calculado": 242,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: R fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 0.004,
+     "calculado": 0.00392156862745098,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: ops fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 255,
+     "calculado": 255,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: rápida",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 15,
+     "calculado": 15,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2",
+     "cifra": "mínimo 100: lenta",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 20,
+     "calculado": 20,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "Réplica SPY de 7.4 (no impresa)",
+   "paginas_428p": "—",
+   "carpeta": "resultados/r01_divergencias_7_4_spy",
+   "archivos": {
+    "r01_divergencias_7_4_spy/resultados_replica_divergencias_spy.json": "6ea04fe0bf98a7791f20d4e74f950da44c7376c20875d5669e6724970d21123e",
+    "r01_divergencias_7_4_spy/tabla_replica_divergencias_spy.md": "c44468d820ac4152499a37900c0717d30d5ea4b76b00e6c07dc28949c725c8d1"
+   },
+   "cifras_impresas_comprobadas": []
+  },
+  {
+   "figura": "Réplica SPY de 8.3 (no impresa)",
+   "paginas_428p": "—",
+   "carpeta": "resultados/r02_compresion_8_3_spy",
+   "archivos": {
+    "r02_compresion_8_3_spy/resultados_replica_compresion_spy.json": "9e8e9ac19124c87e5c8e27e80999a8ee4108c55b6c79cf053c73ecb8b4ba0ee9",
+    "r02_compresion_8_3_spy/tabla_replica_compresion_spy.md": "42472034001f57bd286f201db46d85795c83ca733410cf2a729dd6c0917fc45f"
+   },
+   "cifras_impresas_comprobadas": []
+  },
+  {
+   "figura": "Réplica SPY de 14.2, walk-forward con costes (no impresa)",
+   "paginas_428p": "—",
+   "carpeta": "resultados/r03_walkforward_14_2_spy",
+   "archivos": {
+    "r03_walkforward_14_2_spy/resultados_replica_sobreajuste_spy.json": "3d0943c8a25f6452384ed3ac8ae101b624cb31a4cb24267176e90fe1c6f154ac",
+    "r03_walkforward_14_2_spy/tabla_replica_sobreajuste_spy.md": "434b9f9806691ccf0f85e9f416ebf380ea1b82e85f6d4f199d12b3914a5f034c"
+   },
+   "cifras_impresas_comprobadas": []
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "n_osciladores": 18,
+ "n_parejas": 153,
+ "rsi_con": {
+  "stoch": 0.6802313082196949,
+  "cmo": 0.8134392943700378,
+  "macd": 0.6244044949332339
+ },
+ "series_validas_min": 60,
+ "series_validas_max": 60
+}
