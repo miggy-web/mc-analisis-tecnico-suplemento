@@ -1,0 +1,4 @@
+.datos_locales/
+__pycache__/
+*.pyc
+LOCAL_*

@@ -1,0 +1,316 @@
+{
+ "banco": {
+  "series": 60,
+  "velas_por_serie": 250,
+  "dentro": 30,
+  "fuera": 30,
+  "semillas_dentro": [
+   1000,
+   1002,
+   1100,
+   1102,
+   1200,
+   1202,
+   1300,
+   1302,
+   1400,
+   1402,
+   1500,
+   1502,
+   1600,
+   1602,
+   1700,
+   1702,
+   1800,
+   1802,
+   1900,
+   1902,
+   2000,
+   2002,
+   2100,
+   2102,
+   2200,
+   2202,
+   2300,
+   2302,
+   2400,
+   2402
+  ],
+  "semillas_fuera": [
+   1001,
+   1003,
+   1101,
+   1103,
+   1201,
+   1203,
+   1301,
+   1303,
+   1401,
+   1403,
+   1501,
+   1503,
+   1601,
+   1603,
+   1701,
+   1703,
+   1801,
+   1803,
+   1901,
+   1903,
+   2001,
+   2003,
+   2101,
+   2103,
+   2201,
+   2203,
+   2301,
+   2303,
+   2401,
+   2403
+  ]
+ },
+ "rejilla": {
+  "rapidas": [
+   5,
+   8,
+   10,
+   12,
+   15,
+   20
+  ],
+  "lentas": [
+   20,
+   30,
+   40,
+   50,
+   60
+  ],
+  "stops": [
+   1,
+   1.5,
+   2,
+   3
+  ],
+  "objetivos": [
+   1,
+   1.5,
+   2,
+   3
+  ]
+ },
+ "combinaciones_brutas": 480,
+ "combinaciones_validas": 464,
+ "seleccion": {
+  "bruto_min0": {
+   "min": 0,
+   "mejor": {
+    "rapida": 20,
+    "lenta": 30,
+    "stopATR": 3,
+    "objetivoR": 3
+   },
+   "idx": 415,
+   "dentro": {
+    "operaciones": 10,
+    "aciertos": 3,
+    "tasaAcierto": 0.3,
+    "esperanza": 0.2,
+    "profitFactor": 1.2857142857142858,
+    "drawdown": 5,
+    "total": 2
+   },
+   "fuera": {
+    "operaciones": 18,
+    "aciertos": 2,
+    "tasaAcierto": 0.1111111111111111,
+    "esperanza": -0.5555555555555556,
+    "profitFactor": 0.375,
+    "drawdown": 15,
+    "total": -10
+   },
+   "combinaciones": 464,
+   "mediaFuera": -0.6533668265359415,
+   "percentil_fuera_entre_464": 71.76724137931035
+  },
+  "coste5pb_min0": {
+   "min": 0,
+   "coste_bps_ida_vuelta": 5,
+   "mejor": {
+    "rapida": 20,
+    "lenta": 30,
+    "stopATR": 3,
+    "objetivoR": 3
+   },
+   "idx": 415,
+   "dentro_R": 0.18719497081811914,
+   "dentro_ops": 10,
+   "fuera_R": -0.5650613920916665,
+   "fuera_ops": 18,
+   "mediaFuera": -0.6779360597046377
+  },
+  "coste10pb_min0": {
+   "min": 0,
+   "coste_bps_ida_vuelta": 10,
+   "mejor": {
+    "rapida": 20,
+    "lenta": 30,
+    "stopATR": 3,
+    "objetivoR": 3
+   },
+   "idx": 415,
+   "dentro_R": 0.17438994163623833,
+   "dentro_ops": 10,
+   "fuera_R": -0.5745672286277778,
+   "fuera_ops": 18,
+   "mediaFuera": -0.7025052928733329
+  },
+  "bruto_min30": {
+   "min": 30,
+   "mejor": {
+    "rapida": 5,
+    "lenta": 20,
+    "stopATR": 2,
+    "objetivoR": 1
+   },
+   "idx": 8,
+   "dentro": {
+    "operaciones": 93,
+    "aciertos": 48,
+    "tasaAcierto": 0.5161290322580645,
+    "esperanza": 0.03225806451612903,
+    "profitFactor": 1.0666666666666667,
+    "drawdown": 24,
+    "total": 3
+   },
+   "fuera": {
+    "operaciones": 101,
+    "aciertos": 39,
+    "tasaAcierto": 0.38613861386138615,
+    "esperanza": -0.22772277227722773,
+    "profitFactor": 0.6290322580645161,
+    "drawdown": 38,
+    "total": -23
+   },
+   "combinaciones": 464,
+   "mediaFuera": -0.6533668265359415,
+   "percentil_fuera_entre_464": 96.55172413793103
+  },
+  "coste5pb_min30": {
+   "min": 30,
+   "coste_bps_ida_vuelta": 5,
+   "mejor": {
+    "rapida": 5,
+    "lenta": 20,
+    "stopATR": 2,
+    "objetivoR": 1
+   },
+   "idx": 8,
+   "dentro_R": 0.01369223092791701,
+   "dentro_ops": 93,
+   "fuera_R": -0.2464119664131898,
+   "fuera_ops": 101,
+   "mediaFuera": -0.6779360597046377
+  },
+  "coste10pb_min30": {
+   "min": 30,
+   "coste_bps_ida_vuelta": 10,
+   "mejor": {
+    "rapida": 5,
+    "lenta": 20,
+    "stopATR": 2,
+    "objetivoR": 1
+   },
+   "idx": 8,
+   "dentro_R": -0.00487360266029514,
+   "dentro_ops": 93,
+   "fuera_R": -0.2651011605491518,
+   "fuera_ops": 101,
+   "mediaFuera": -0.7025052928733329
+  },
+  "bruto_min100": {
+   "min": 100,
+   "mejor": {
+    "rapida": 15,
+    "lenta": 20,
+    "stopATR": 1,
+    "objetivoR": 1
+   },
+   "idx": 320,
+   "dentro": {
+    "operaciones": 242,
+    "aciertos": 119,
+    "tasaAcierto": 0.49173553719008267,
+    "esperanza": -0.01652892561983471,
+    "profitFactor": 0.967479674796748,
+    "drawdown": 20,
+    "total": -4
+   },
+   "fuera": {
+    "operaciones": 255,
+    "aciertos": 128,
+    "tasaAcierto": 0.5019607843137255,
+    "esperanza": 0.00392156862745098,
+    "profitFactor": 1.0078740157480315,
+    "drawdown": 22,
+    "total": 1
+   },
+   "combinaciones": 464,
+   "mediaFuera": -0.6533668265359415,
+   "percentil_fuera_entre_464": 100
+  },
+  "coste5pb_min100": {
+   "min": 100,
+   "coste_bps_ida_vuelta": 5,
+   "mejor": {
+    "rapida": 15,
+    "lenta": 20,
+    "stopATR": 1,
+    "objetivoR": 1
+   },
+   "idx": 320,
+   "dentro_R": -0.05870580371706881,
+   "dentro_ops": 242,
+   "fuera_R": -0.037421755835681705,
+   "fuera_ops": 255,
+   "mediaFuera": -0.6779360597046377
+  },
+  "coste10pb_min100": {
+   "min": 100,
+   "coste_bps_ida_vuelta": 10,
+   "mejor": {
+    "rapida": 5,
+    "lenta": 40,
+    "stopATR": 1.5,
+    "objetivoR": 1
+   },
+   "idx": 36,
+   "dentro_R": -0.09678257134738316,
+   "dentro_ops": 136,
+   "fuera_R": -0.47520046418939565,
+   "fuera_ops": 167,
+   "mediaFuera": -0.7025052928733329
+  }
+ },
+ "diagnostico_total": {
+  "dentro": {
+   "ambos": 89,
+   "huecoStop": 1162,
+   "huecoObj": 507,
+   "abiertaFinal": 3718
+  },
+  "fuera": {
+   "ambos": 117,
+   "huecoStop": 1517,
+   "huecoObj": 577,
+   "abiertaFinal": 3408
+  }
+ },
+ "operaciones_total": {
+  "dentro": 40686,
+  "fuera": 41547
+ },
+ "variantes_con_cero_operaciones": {
+  "dentro": 0,
+  "fuera": 0
+ }
+}

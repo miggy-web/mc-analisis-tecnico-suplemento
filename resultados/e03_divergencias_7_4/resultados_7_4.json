@@ -1,0 +1,60 @@
+{
+ "sha_banco": "93d237ea0008cce149861fdcbef02250bde30a29c449229c6a93fe01b8cda33b",
+ "clases": {
+  "regular-alcista": 127,
+  "oculta-alcista": 199,
+  "regular-bajista": 188,
+  "oculta-bajista": 137
+ },
+ "paridad": {
+  "alcistas": 326,
+  "bajistas": 325,
+  "aciertoalcista": 72.08588957055214,
+  "aciertobajista": 44.61538461538461,
+  "basealcista": 69.13888888888889
+ },
+ "resultados": {
+  "alcista": {
+   "N": 117,
+   "aciertos": 50,
+   "acierto_pct": 42.73504273504273,
+   "wilson": [
+    34.14280334411742,
+    51.789177148418034
+   ],
+   "N_base": 662,
+   "base_emparejada_pct": 40.8408207439943,
+   "base_todas_velas_regimen_pct": 46.30579297245964,
+   "delta_pp": 1.8942219910484337,
+   "ic95": [
+    -4.846097322992284,
+    8.561402339469758
+   ],
+   "p": 0.5680431956804319,
+   "B": 10000,
+   "semilla": 20261126,
+   "boots_validos": 10000
+  },
+  "bajista": {
+   "N": 155,
+   "aciertos": 41,
+   "acierto_pct": 26.451612903225808,
+   "wilson": [
+    20.13822705811487,
+    33.90399810023943
+   ],
+   "N_base": 597,
+   "base_emparejada_pct": 20.07118539906214,
+   "base_todas_velas_regimen_pct": 24.070788530465954,
+   "delta_pp": 6.380427504163666,
+   "ic95": [
+    -0.3652382752613356,
+    12.545983088460272
+   ],
+   "p": 0.05449455054494551,
+   "B": 10000,
+   "semilla": 20261126,
+   "boots_validos": 10000
+  }
+ }
+}

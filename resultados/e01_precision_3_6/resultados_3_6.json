@@ -1,0 +1,47 @@
+{
+ "precision": {
+  "e=0.05": {
+   "n_exacto": "9604/25",
+   "n_decimal": 384.16,
+   "n_minimo_entero": 385
+  },
+  "e=0.02": {
+   "n_exacto": "2401",
+   "n_decimal": 2401.0,
+   "n_minimo_entero": 2401
+  },
+  "e=0.10": {
+   "n_exacto": "2401/25",
+   "n_decimal": 96.04,
+   "n_minimo_entero": 97
+  }
+ },
+ "martillo": {
+  "velas_banco": 12000,
+  "martillos_k2": 49,
+  "velas_por_martillo": 244.89795918367346,
+  "una_de_cada_redondeado": 245,
+  "velas_para_385_frecuencia_exacta": 94286,
+  "velas_para_385_con_1_de_245": 94325,
+  "velas_para_384_con_1_de_245": 94080,
+  "margen_con_49": 0.13999999999999999
+ },
+ "potencia_ilustrativa": {
+  "diferencia_2_puntos": {
+   "p0": 0.5,
+   "p1": 0.52,
+   "alfa": 0.05,
+   "potencia": 0.8,
+   "n_minimo_entero": 4904
+  },
+  "diferencia_5_puntos": {
+   "p0": 0.5,
+   "p1": 0.55,
+   "alfa": 0.05,
+   "potencia": 0.8,
+   "n_minimo_entero": 783
+  }
+ },
+ "z_975": 1.9599639845400536,
+ "z_80": 0.8416212335729144
+}

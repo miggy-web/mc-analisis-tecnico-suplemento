@@ -1,0 +1,4 @@
+# Python >= 3.11 (probado con 3.13.5) y Node.js >= 22.6 (probado con v24.22.1; usa --experimental-strip-types).
+# numpy va fijado a la versión exacta: los generadores aleatorios de numpy no garantizan la misma secuencia entre versiones,
+# y las huellas SHA-256 de referencia dependen de ella.
+numpy==2.5.5
