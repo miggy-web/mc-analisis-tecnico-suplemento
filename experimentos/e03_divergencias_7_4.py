@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Experimento e03 · 7.4 Divergencias (figura 7.4.1) — cálculo causal sobre el banco simulado general (12.000 velas).
 
-Regla (la de la Definición MC de la pág. 171): solo divergencias REGULARES, RSI 14, swings n = 3.
+Regla (la de la Definición MC de la pág. 172): solo divergencias REGULARES, RSI 14, swings n = 3.
 Instante observable: t_obs = t_pivote + 3 (el pivote solo se confirma 3 velas después).
 Horizonte: 20 velas completas desde t_obs (se descartan eventos sin 20 velas futuras).
 Base emparejada: pivotes del mismo tipo confirmados (t_pivote + 3) SIN divergencia regular, mismo régimen.

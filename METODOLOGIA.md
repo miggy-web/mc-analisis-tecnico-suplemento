@@ -37,7 +37,7 @@ Este documento describe cómo se calcula cada cifra. El código es la referencia
 
 **Banco general.**
 - Hay 49 martillos (k = 2) en 12.000 velas: uno cada 244,9 velas, que redondea a 1 de cada 245.
-- Para 385 casos harían falta 94.286 velas con la frecuencia exacta o 94.325 con 1/245. El libro imprime 245 × 384 = 94.080.
+- Para 385 casos harían falta 94.286 velas con la frecuencia exacta o 94.325 con 1/245. El libro imprime 245 × 385 = 94.325, unas 94.300.
 - Es una **extrapolación ilustrativa**: supone casos independientes y una frecuencia estable.
 
 ## 3. Matriz de 18 osciladores (7.3; `e02_matriz_osciladores_7_3.py`, `motor/ta/src/redundancy.ts`)
@@ -116,7 +116,7 @@ En ambos casos **el intervalo incluye cero con el método declarado**. El 0,054 
 **Medidas.**
 - E_rel = ATR14_{t+20}/ATR14_t (principal).
 - E_rel_TR = media del TR futuro / media del TR pasado.
-- **Desplazamiento absoluto del cierre a 20 velas** = 100·|C_{t+20}/C_t − 1|. El libro lo llama «recorrido absoluto».
+- **Desplazamiento absoluto del cierre a 20 velas** = 100·|C_{t+20}/C_t − 1|. Es la medida que el libro llama «desplazamiento absoluto del cierre».
 - Rango futuro = 100·(máximo − mínimo en (t, t+20]) / C_t.
 - % que sube y % que baja.
 
@@ -224,7 +224,35 @@ La mitad fuera de muestra también tiene variación muestral. La comparación il
 
 **Publicación.** Las tablas de eventos fechadas se escriben solo en la carpeta local de datos.
 
-## 9. Fuera del alcance de v1.0.0
+## 9. Tablas de consulta, casos dibujados y apéndice A (edición RF-452c, 452 págs.)
+
+**Tabla 7.1.a y figura 7.1.1** (`e07_tablas_consulta_7_1_7_3.py`).
+- RSI 14 de Wilder sobre los 17 cierres didácticos de la figura 7.1.1.
+- Primera media: simple, sobre las variaciones de las sesiones 2 a 15. Después, media de Wilder (α = 1/14).
+- Se calcula a precisión completa y solo se redondea al escribir: medias con 4 decimales, RS con 3 y RSI con 2.
+- El script regenera la tabla y exige que coincida byte a byte con `tablas_consulta/tabla_7_1_a_*`. RSI de las sesiones 15, 16 y 17: 61,32, 57,80 y 59,06.
+
+**Tabla 7.3.a y figura 7.3.1** (`e07`).
+- La tabla 7.3.a es la salida de `e02`; `e07` vuelve a ejecutar `e02` en una carpeta temporal y exige la igualdad byte a byte.
+- La figura 7.3.1 resume la matriz: el r de cada oscilador con el RSI (17 valores) y las 12 parejas con |r| ≥ 0,80.
+- El DPO es negativo frente a los otros 17.
+
+**Casos dibujados en 7.4.1 y 14.2.2** (`e09_casos_figuras_7_4_1_14_2_2.py`). Cada uno se recalcula desde su banco.
+- 7.4.1 A: banco general, régimen parabólico, semilla 1400. Divergencia alcista regular con P1 en la vela 24 (mínimo 99,67; RSI 47,0) y P2 en la 36 (98,33; 61,2). El cierre pasa de 101,11 en t + 3 a 103,21 en t + 23: +2,08 %.
+- 7.4.1 B: régimen bajista, semilla 1103. La vela 112 (mínimo 64,27) no llega a pivote porque la vela 115 marca 63,67.
+- 14.2.2 B: banco de 15.000 velas, serie par 54 (acumulación, semilla 2302), combinación 15/20 con 1 ATR y 1 R. Cruce al alza en la vela 178 y entrada al cierre a 100,95; stop 99,76 y objetivo 102,14 (ATR14 simple 1,1857). La vela 180 (O 101,25, H 102,48, L 96,86, C 98,46) toca los dos niveles y cuenta como −1 R. Con 5 pb, el coste es 0,043 R y el resultado neto −1,043 R.
+
+**Apéndice A, caso 4: simulación del perfil (figura A.4d)** (`e08_caso_4_simulacion_perfil.py`).
+- Datos: 24 barras sintéticas de 5 minutos escritas a mano sobre la malla de ticks de 0,25 de un MES ilustrativo. No son datos de mercado ni tienen fecha.
+- Perfil: algoritmo de 11.4, con 40 niveles iguales sin redondear al tick y el volumen de cada barra repartido por igual entre los niveles que toca.
+- POC: en caso de empate, el nivel más bajo.
+- Área de valor: se amplía de uno en uno, con empate hacia arriba, hasta cubrir al menos el 70 %.
+- VWAP de sesión con bandas de ±1σ y ±2σ; ATR 14 de Wilder.
+- `e08` ejecuta el generador en una carpeta temporal y exige las huellas de `apendice_a/caso_4_simulacion_perfil/SHA256SUMS.txt`.
+- Resultados: POC 5.000,25; VAH 5.005,50; VAL 4.993,50; área efectiva 72,03 %; VWAP 5.002,10; ATR 6,89.
+- La ficha de escenarios del caso (riesgo, contratos, obstáculos) es didáctica y sobre barras sintéticas. No es una señal de trading.
+
+## 10. Fuera del alcance de v1.0.0
 
 - Esquemas didácticos.
 - Capturas de TradingView: no se publican por licencia.

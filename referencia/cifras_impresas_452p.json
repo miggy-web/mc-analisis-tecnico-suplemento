@@ -1,0 +1,1365 @@
+{
+ "_nota": "Cifras tal como se imprimen en la edición definitiva RF-452c del interior (452 págs., PDF color FOGRA51, SHA-256 12f6f6e959f6924f45ebbdec5c3813de8ec0ce3ed6f459fa8246dea77f8c0351; las págs. con cifras son idénticas a RF-452 y RF-452b). Solo números; ningún texto del libro. run_all.py comprueba que cada cifra calculada, redondeada a los decimales impresos, coincide.",
+ "comprobaciones": [
+  [
+   "Bancos (págs. 9 y 318–319)",
+   "banco general, velas",
+   "e00_bancos/bancos.json",
+   "general_12000.velas",
+   12000,
+   0
+  ],
+  [
+   "Bancos (págs. 9 y 318–319)",
+   "banco de 14.2, velas",
+   "e00_bancos/bancos.json",
+   "sobreajuste_15000.velas",
+   15000,
+   0
+  ],
+  [
+   "Bancos (págs. 9 y 318–319)",
+   "banco de 8.3, velas",
+   "e00_bancos/bancos.json",
+   "largo_96000.velas",
+   96000,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "z²·p(1−p)/e², e = 0,05",
+   "e01_precision_3_6/resultados_3_6.json",
+   "precision.e=0.05.n_decimal",
+   384.16,
+   2
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "mínimo entero con e = 0,05",
+   "e01_precision_3_6/resultados_3_6.json",
+   "precision.e=0.05.n_minimo_entero",
+   385,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "e = 0,02",
+   "e01_precision_3_6/resultados_3_6.json",
+   "precision.e=0.02.n_decimal",
+   2401,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "e = 0,10",
+   "e01_precision_3_6/resultados_3_6.json",
+   "precision.e=0.10.n_decimal",
+   96.04,
+   2
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "mínimo entero con e = 0,10",
+   "e01_precision_3_6/resultados_3_6.json",
+   "precision.e=0.10.n_minimo_entero",
+   97,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "martillos (k = 2) en 12.000 velas",
+   "e01_precision_3_6/resultados_3_6.json",
+   "martillo.martillos_k2",
+   49,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "una de cada",
+   "e01_precision_3_6/resultados_3_6.json",
+   "martillo.una_de_cada_redondeado",
+   245,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "245 × 385",
+   "e01_precision_3_6/resultados_3_6.json",
+   "martillo.velas_para_385_con_1_de_245",
+   94325,
+   0
+  ],
+  [
+   "3.6.3 y caja 16 (págs. 99–101)",
+   "margen con 49",
+   "e01_precision_3_6/resultados_3_6.json",
+   "martillo.margen_con_49",
+   0.14,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "osciladores",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "n_osciladores",
+   18,
+   0
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "parejas",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "n_parejas",
+   153,
+   0
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "series por celda",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "series_validas_min",
+   60,
+   0
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "r estocástico–RSI",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "rsi_con.stoch",
+   0.68,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "r CMO–RSI",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "rsi_con.cmo",
+   0.81,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "r MACD–RSI",
+   "e02_matriz_osciladores_7_3/resultados_7_3.json",
+   "rsi_con.macd",
+   0.62,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "alcistas regulares N",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.N",
+   117,
+   0
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "alcista sube %",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.acierto_pct",
+   42.74,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "base alcista %",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.base_emparejada_pct",
+   40.84,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "Δ alcista pp",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.delta_pp",
+   1.89,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "IC alcista inferior",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.ic95.0",
+   -4.85,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "IC alcista superior",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.ic95.1",
+   8.56,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "p alcista",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.alcista.p",
+   0.568,
+   3
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "bajistas regulares N",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.N",
+   155,
+   0
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "bajista baja %",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.acierto_pct",
+   26.45,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "base bajista %",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.base_emparejada_pct",
+   20.07,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "Δ bajista pp",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.delta_pp",
+   6.38,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "IC bajista inferior",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.ic95.0",
+   -0.37,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "IC bajista superior",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.ic95.1",
+   12.55,
+   2
+  ],
+  [
+   "7.4.2 (págs. 180–182)",
+   "p bajista",
+   "e03_divergencias_7_4/resultados_7_4.json",
+   "resultados.bajista.p",
+   0.054,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "compresiones",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "N_eventos",
+   1925,
+   0
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "controles",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "N_controles",
+   1822,
+   0
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "ATR 20 / ATR 0, compresión",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.media_eventos",
+   1.052,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "ATR 20 / ATR 0, control",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.media_control_ponderada",
+   0.991,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "Δ ATR",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.delta",
+   0.06,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ ATR inferior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.ic95.0",
+   0.054,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ ATR superior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.ic95.1",
+   0.066,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "p Δ ATR < 0,001",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.E_rel.p",
+   "<0.001",
+   null
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "recorrido absoluto %, compresión",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.recorrido_abs_pct.media_eventos",
+   2.609,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "recorrido absoluto %, control",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.recorrido_abs_pct.media_control_ponderada",
+   2.581,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "Δ recorrido",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.recorrido_abs_pct.delta",
+   0.028,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ recorrido inferior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.recorrido_abs_pct.ic95.0",
+   -0.046,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ recorrido superior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.recorrido_abs_pct.ic95.1",
+   0.093,
+   3
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "sube %, compresión",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.media_eventos",
+   72.99,
+   2
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "sube %, control",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.media_control_ponderada",
+   76.61,
+   2
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "Δ sube pp",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.delta",
+   -3.62,
+   2
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ sube inferior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.ic95.0",
+   -5.9,
+   2
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "IC Δ sube superior",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.ic95.1",
+   -1.14,
+   2
+  ],
+  [
+   "8.3.1 (págs. 202–203)",
+   "p sube",
+   "e04_compresion_8_3/resultados_8_3.json",
+   "resultados.sube.p",
+   0.003,
+   3
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "tríos",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "n_trios",
+   28,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "excluidos",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "n_excluidos",
+   4,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "medibles",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "n_medibles",
+   24,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "superan el 100 %",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "n_supera_100",
+   13,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "elegibles",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "n_elegibles",
+   11,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "toques",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "toques",
+   2,
+   0
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "cobertura",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "cobertura_7niv",
+   0.12,
+   2
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "esperados",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "esperado",
+   1.32,
+   2
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "P(X ≥ 2)",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "p_binomial",
+   0.3873,
+   4
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "media con niveles al azar",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "media_toques_aleatorios",
+   1.052,
+   3
+  ],
+  [
+   "9.2 (pág. 217) y 9.2.2 (pág. 219)",
+   "p niveles al azar",
+   "e05_fibonacci_9_2/resultados_9_2.json",
+   "p_niveles_aleatorios",
+   0.2872,
+   4
+  ],
+  [
+   "14.2.1 (pág. 321)",
+   "combinaciones",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "combinaciones_brutas",
+   480,
+   0
+  ],
+  [
+   "14.2.1 (pág. 321)",
+   "válidas",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "combinaciones_validas",
+   464,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: R dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.dentro.esperanza",
+   0.2,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: ops dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.dentro.operaciones",
+   10,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: R fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.fuera.esperanza",
+   -0.556,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: ops fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.fuera.operaciones",
+   18,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: rápida",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.mejor.rapida",
+   20,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "sin mínimo: lenta",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min0.mejor.lenta",
+   30,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: R dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.dentro.esperanza",
+   0.032,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: ops dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.dentro.operaciones",
+   93,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: R fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.fuera.esperanza",
+   -0.228,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: ops fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.fuera.operaciones",
+   101,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: rápida",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.mejor.rapida",
+   5,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 30: lenta",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min30.mejor.lenta",
+   20,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: R dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.dentro.esperanza",
+   -0.017,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: ops dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.dentro.operaciones",
+   242,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: R fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.fuera.esperanza",
+   0.004,
+   3
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: ops fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.fuera.operaciones",
+   255,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: rápida",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.mejor.rapida",
+   15,
+   0
+  ],
+  [
+   "14.2.3 (pág. 323)",
+   "mínimo 100: lenta",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.bruto_min100.mejor.lenta",
+   20,
+   0
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 15: media_g",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.0.media_g",
+   0.4643,
+   4
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 15: media_p",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.0.media_p",
+   0.2929,
+   4
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 15: rs",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.0.rs",
+   1.585,
+   3
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 15: rsi",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.0.rsi",
+   61.32,
+   2
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 16: media_g",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.1.media_g",
+   0.4311,
+   4
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 16: media_p",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.1.media_p",
+   0.3148,
+   4
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 16: rs",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.1.rs",
+   1.37,
+   3
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 16: rsi",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.1.rsi",
+   57.8,
+   2
+  ],
+  [
+   "7.1.1 y tabla 7.1.a (pág. 167)",
+   "sesión 17: rsi",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "tabla_7_1_a.valores.2.rsi",
+   59.06,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r momentum–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.momentum",
+   0.76,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r roc–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.roc",
+   0.74,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r williams–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.williams",
+   0.72,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r stochrsi–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.stochrsi",
+   0.64,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r ppo–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.ppo",
+   0.6,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r cci–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.cci",
+   0.58,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r coppock–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.coppock",
+   0.58,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r rvi–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.rvi",
+   0.57,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r uo–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.uo",
+   0.56,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r fisher–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.fisher",
+   0.55,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r ao–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.ao",
+   0.49,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r kst–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.kst",
+   0.41,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r trix–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.trix",
+   0.37,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel A: r dpo–RSI",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.r_con_rsi.dpo",
+   -0.38,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: parejas con |r| ≥ 0,80",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.n_parejas_abs_r_ge_080",
+   12,
+   0
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 1",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.0.r",
+   0.99,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 2",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.1.r",
+   0.92,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 3",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.2.r",
+   0.9,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 4",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.3.r",
+   0.89,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 5",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.4.r",
+   0.88,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 6",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.5.r",
+   0.87,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 7",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.6.r",
+   0.86,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 8",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.7.r",
+   0.86,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 9",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.8.r",
+   0.84,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 10",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.9.r",
+   0.82,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 11",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.10.r",
+   0.82,
+   2
+  ],
+  [
+   "7.3.1 (pág. 176)",
+   "panel B: pareja 12",
+   "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+   "figura_7_3_1.parejas_abs_r_ge_080.11.r",
+   0.81,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "POC",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.poc",
+   5000.25,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "VAH",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.vah",
+   5005.5,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "VAL",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.val",
+   4993.5,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "niveles",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.niveles",
+   40,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "alto de nivel",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.alto_nivel_puntos",
+   1.5,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "área de valor %",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "perfil.cobertura_pct",
+   72.03,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "VWAP",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "vwap.vwap",
+   5002.1,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "+1σ",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "vwap.+1σ",
+   5007.94,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "−1σ",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "vwap.-1σ",
+   4996.26,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "+2σ",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "vwap.+2σ",
+   5013.78,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "−2σ",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "vwap.-2σ",
+   4990.42,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "ATR(14)",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "atr14.valor",
+   6.89,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "cierre 11:25",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "cierre_corte",
+   5014.25,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "máximo balance inicial",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "balance_inicial.maximo",
+   5040.0,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "mínimo balance inicial",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "balance_inicial.minimo",
+   4980.0,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "invalidación aceptación",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.invalidacion",
+   5005.25,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "distancia ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.distancia_ticks",
+   36,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "riesgo ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.riesgo_ticks",
+   38,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "obstáculo ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.obstaculo_ticks",
+   103,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "exigido ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.exigido_ticks",
+   76,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "riesgo por MES USD",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.riesgo_por_contrato",
+   47.5,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "contratos",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.contratos",
+   21,
+   0
+  ],
+  [
+   "A.4d (pág. 394)",
+   "1 R USD",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.R1",
+   997.5,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "% del presupuesto",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.aceptacion.pct_presupuesto",
+   99.75,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "rotación: obstáculo ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.rotacion.obstaculo_ticks",
+   1.88,
+   2
+  ],
+  [
+   "A.4d (pág. 394)",
+   "rotación: exigido ticks",
+   "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+   "escenarios.rotacion.exigido_ticks",
+   212,
+   0
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P1 vela",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p1_vela",
+   24,
+   0
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P1 mínimo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p1_min",
+   99.67,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P1 RSI",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p1_rsi",
+   47.0,
+   1
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P2 vela",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p2_vela",
+   36,
+   0
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P2 mínimo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p2_min",
+   98.33,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: P2 RSI",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.p2_rsi",
+   61.2,
+   1
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: cierre t+3",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.cierre_t3",
+   101.11,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: cierre t+23",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.cierre_t23",
+   103.21,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "A: resultado a 20 velas %",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_A.ret_20_pct",
+   2.08,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: P1 mínimo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.p1_min",
+   65.21,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: P1 RSI",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.p1_rsi",
+   14.0,
+   1
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: candidato vela",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.cand_vela",
+   112,
+   0
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: candidato mínimo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.cand_min",
+   64.27,
+   2
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: candidato RSI",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.cand_rsi",
+   24.1,
+   1
+  ],
+  [
+   "7.4.1 (pág. 181)",
+   "B: mínimo en t+3",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "7.4.1_B.min_t3",
+   63.67,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "A: 5 pb dentro",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.coste5pb_min0.dentro_R",
+   0.187,
+   3
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "A: 5 pb fuera",
+   "e06_sobreajuste_14_2/resultados_14_2.json",
+   "seleccion.coste5pb_min0.fuera_R",
+   -0.565,
+   3
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: entrada",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.entrada",
+   100.95,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: stop",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.stop",
+   99.76,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: objetivo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.objetivo",
+   102.14,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: t+2 apertura",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.t2_o",
+   101.25,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: t+2 máximo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.t2_h",
+   102.48,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: t+2 mínimo",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.t2_l",
+   96.86,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: t+2 cierre",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.t2_c",
+   98.46,
+   2
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: coste 5 pb en R",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.coste_5pb_R",
+   0.043,
+   3
+  ],
+  [
+   "14.2.2 (pág. 322)",
+   "B: neto con 5 pb",
+   "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+   "14.2.2_B.neto_5pb_R",
+   -1.043,
+   3
+  ]
+ ]
+}

@@ -1,6 +1,12 @@
 1.0.0
 Suplemento reproducible de «MC Análisis Técnico» (MIGGY CAPITAL).
-Cifras verificadas contra la edición auditada del interior: 428 págs., PDF interior completo color FOGRA51,
-SHA-256 7e89d0a66eac10a27a3daadc6e6b13ac76b5f9024c31b013f87e427f88eeb193 (26-11-2026).
-Interior final (tras cerrar AT-01 a AT-10): SHA-256 PENDIENTE — Editorial lo anota aquí al exportar el interior definitivo.
-Las cifras comprobadas por run_all.py no cambian con las correcciones de redacción de AT-08 y AT-09.
+Edición definitiva RF-452c (27-11-2026, 13:30 Madrid): 452 págs., 150 figuras, 77 cajas.
+- Interior Color FOGRA51 (452 págs.): SHA-256 12f6f6e959f6924f45ebbdec5c3813de8ec0ce3ed6f459fa8246dea77f8c0351
+- Interior B/N gris (452 págs.): SHA-256 dd5dde053babd2ea11f50139f2463a5bad09e4b97797dd73f466ab25865efb8d
+Las 170 cifras impresas que comprueba run_all.py (referencia/cifras_impresas_452p.json) coinciden con la edición RF-452c.
+RF-452c solo corrige el mapa ToUnicode de las ligaduras fi/fl (copia y búsqueda de texto); texto, figuras y paginación son los de RF-452b.
+Historial:
+- Edición RF-452b (27-11-2026, APTO de Miggy Calidad a las 13:11; sustituida por RF-452c): color 3c9be8a697f9e7dcca453d2bb6daaf5e26d678837d4e86b7d7bbdcb1e098c042; B/N 32187011b771a4a160a2e498236d6df44cd32c844f4b774cffaa93377cbfa80b. Respecto a RF-452 solo cambió las págs. 44, 45, 48, 49, 111, 121 y 361, sin cifras de este suplemento.
+- Edición RF-452 (27-11-2026, sustituida por RF-452b): color 74e445a883203572fcf5a801f3bf4652deaa3ecf0342ae3e77e770dbc2a2bcc9; B/N eff41fa5c4b5f08b6eb4217745b833110dcbe700ff9d2e91508c453119383921.
+- Edición final de 438 págs. (26-11-2026): color d10050cc835bdee7cae4c1950090f88bbf7c0111856a81ecc278442df25a147a; B/N edc2102ef030db7038053ae4b78f502fac7ae1eabc89d31cf278e90fbd3623d0.
+- Edición auditada de 428 págs. (26-11-2026): color 7e89d0a66eac10a27a3daadc6e6b13ac76b5f9024c31b013f87e427f88eeb193.
