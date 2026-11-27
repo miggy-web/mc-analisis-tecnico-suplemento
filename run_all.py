@@ -7,7 +7,7 @@
 2. Borra todas las salidas (resultados/, TABLA_FIGURAS_SHA256.*).
 3. Descarga las series reales en una carpeta temporal FUERA del paquete y verifica su SHA-256 (MANIFEST_DATOS.json).
 4. Ejecuta todos los experimentos y réplicas DOS veces, en carpetas separadas, y exige SHA-256 idénticos archivo a archivo.
-5. Comprueba que cada cifra impresa en el libro (referencia/cifras_impresas_428p.json) coincide con la calculada.
+5. Comprueba que cada cifra impresa en el libro (referencia/cifras_impresas_452p.json) coincide con la calculada.
 6. Compara las huellas con las de referencia (referencia/SHA256_ESPERADOS.json).
 7. Escribe resultados/ y TABLA_FIGURAS_SHA256.md/.json, ejecuta auditar_paquete.py y borra la carpeta temporal de datos.
 Cualquier fallo detiene el proceso con código distinto de 0.
@@ -21,12 +21,17 @@ PY = sys.executable
 PASOS = [("e00_bancos", "experimentos/e00_bancos.py"), ("e01_precision_3_6", "experimentos/e01_precision_3_6.py"),
          ("e02_matriz_osciladores_7_3", "experimentos/e02_matriz_osciladores_7_3.py"), ("e03_divergencias_7_4", "experimentos/e03_divergencias_7_4.py"),
          ("e04_compresion_8_3", "experimentos/e04_compresion_8_3.py"), ("e05_fibonacci_9_2", "experimentos/e05_fibonacci_9_2.py"),
-         ("e06_sobreajuste_14_2", "experimentos/e06_sobreajuste_14_2.py"), ("r01_divergencias_7_4_spy", "replicas_spy/r01_divergencias_7_4_spy.py"),
+         ("e06_sobreajuste_14_2", "experimentos/e06_sobreajuste_14_2.py"), ("e07_tablas_consulta_7_1_7_3", "experimentos/e07_tablas_consulta_7_1_7_3.py"),
+         ("e08_caso_4_simulacion_perfil", "experimentos/e08_caso_4_simulacion_perfil.py"), ("e09_casos_figuras_7_4_1_14_2_2", "experimentos/e09_casos_figuras_7_4_1_14_2_2.py"),
+         ("r01_divergencias_7_4_spy", "replicas_spy/r01_divergencias_7_4_spy.py"),
          ("r02_compresion_8_3_spy", "replicas_spy/r02_compresion_8_3_spy.py"), ("r03_walkforward_14_2_spy", "replicas_spy/r03_walkforward_14_2_spy.py")]
-FIGURAS = [("Bancos simulados", "9, 309–310", "e00_bancos"), ("3.6.3 · precisión y caja 16", "94–97", "e01_precision_3_6"),
-           ("7.3.1 · matriz de 18 osciladores", "166–170", "e02_matriz_osciladores_7_3"), ("7.4.1 · divergencias", "171–173", "e03_divergencias_7_4"),
-           ("8.3.1 · compresión del ATR%", "194–198", "e04_compresion_8_3"), ("9.2 y 9.2.2 · Fibonacci, 28 tríos", "209–213", "e05_fibonacci_9_2"),
-           ("14.2.1 y 14.2.2 · 464 variantes", "312–317", "e06_sobreajuste_14_2"),
+FIGURAS = [("Bancos simulados", "9, 318–319", "e00_bancos"), ("3.6.3 · precisión y caja 16", "98–101", "e01_precision_3_6"),
+           ("7.3.1 · matriz de 18 osciladores", "174–178", "e02_matriz_osciladores_7_3"), ("7.4.2 · divergencias contra su base", "179–183", "e03_divergencias_7_4"),
+           ("8.3.1 · compresión del ATR%", "201–205", "e04_compresion_8_3"), ("9.2 y 9.2.2 · Fibonacci, 28 tríos (fig. 9.2.2, pág. 219)", "215–221", "e05_fibonacci_9_2"),
+           ("14.2.1 y 14.2.3 · 464 variantes (y panel A de 14.2.2)", "320–326", "e06_sobreajuste_14_2"),
+           ("Tablas de consulta 7.1.a y 7.3.a; figs. 7.1.1 y 7.3.1", "165–169, 174–178", "e07_tablas_consulta_7_1_7_3"),
+           ("Apéndice A, caso 4 · fig. A.4d (simulación del perfil)", "393–395", "e08_caso_4_simulacion_perfil"),
+           ("Casos dibujados en 7.4.1 y 14.2.2 (panel B)", "181, 322", "e09_casos_figuras_7_4_1_14_2_2"),
            ("Réplica SPY de 7.4 (no impresa)", "—", "r01_divergencias_7_4_spy"), ("Réplica SPY de 8.3 (no impresa)", "—", "r02_compresion_8_3_spy"),
            ("Réplica SPY de 14.2, walk-forward con costes (no impresa)", "—", "r03_walkforward_14_2_spy")]
 
@@ -84,10 +89,11 @@ def main():
         if h[1] != h[2]: fallo("NO DETERMINISTA: " + ", ".join(k for k in h[1] if h[1][k] != h[2].get(k)))
         print(f"   Doble ejecución idéntica: {len(h[1])} archivos con el mismo SHA-256")
         shutil.copytree(trabajo / "ejecucion_1", RAIZ / "resultados"); shutil.rmtree(trabajo)
-        ref = json.loads((RAIZ / "referencia" / "cifras_impresas_428p.json").read_text())["comprobaciones"]
+        ref = json.loads((RAIZ / "referencia" / "cifras_impresas_452p.json").read_text())["comprobaciones"]
         comp = []
         for fig, desc, archivo, ruta, impreso, dec in ref:
             v = valor(json.loads((RAIZ / "resultados" / archivo).read_text()), ruta)
+            v = float(v) if isinstance(v, str) else v
             ok = (v < 0.001) if impreso == "<0.001" else (round(v, dec) == round(impreso, dec) if dec else round(v) == impreso)
             comp.append(dict(figura=fig, cifra=desc, archivo=archivo, impreso=impreso, calculado=v, ok=bool(ok)))
         malas = [c for c in comp if not c["ok"]]
@@ -105,12 +111,12 @@ def main():
         for fig, pags, carpeta in FIGURAS:
             arch = {k: v for k, v in h[1].items() if k.startswith(carpeta + "/")}
             cc = [c for c in comp if c["archivo"].startswith(carpeta + "/")]
-            js.append(dict(figura=fig, paginas_428p=pags, carpeta=f"resultados/{carpeta}", archivos=arch, cifras_impresas_comprobadas=cc))
+            js.append(dict(figura=fig, paginas_452p=pags, carpeta=f"resultados/{carpeta}", archivos=arch, cifras_impresas_comprobadas=cc))
             for k, v in arch.items():
                 filas.append(f"| {fig} | {pags} | `resultados/{k}` | `{v}` | {sum(c['ok'] for c in cc)}/{len(cc)} |")
         (RAIZ / "TABLA_FIGURAS_SHA256.json").write_text(json.dumps(dict(version=(RAIZ / "VERSION").read_text().split("\n")[0], figuras=js), indent=1, ensure_ascii=False, default=float) + "\n")
         md = ["# Tabla por figura: salidas esperadas y huellas SHA-256 (generada por `run_all.py`)", "",
-              "Cada fila es un archivo de salida. «Cifras impresas» = cifras del libro (edición auditada de 428 págs.) que coinciden con la calculada, redondeada a los decimales impresos.", "",
+              "Cada fila es un archivo de salida. «Cifras impresas» = cifras del libro (edición definitiva RF-452c, 452 págs.) que coinciden con la calculada, redondeada a los decimales impresos.", "",
               "| Figura o experimento | Págs. | Archivo | SHA-256 | Cifras impresas |", "|---|---|---|---|---|"] + filas
         md += ["", "## Cifras impresas comprobadas", "", "| Figura | Cifra | Impreso | Calculado |", "|---|---|---|---|"]
         md += [f"| {c['figura']} | {c['cifra']} | {c['impreso']} | {c['calculado']} |" for c in comp]

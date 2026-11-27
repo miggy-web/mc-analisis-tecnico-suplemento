@@ -3,7 +3,7 @@
  "figuras": [
   {
    "figura": "Bancos simulados",
-   "paginas_428p": "9, 309–310",
+   "paginas_452p": "9, 318–319",
    "carpeta": "resultados/e00_bancos",
    "archivos": {
     "e00_bancos/bancos.json": "50e9c7aa2be1b1d044feb6a38452a92edc2d273aa7d256ff5b9bad9e9f347608",
@@ -11,7 +11,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "Bancos (págs. 9 y 309)",
+     "figura": "Bancos (págs. 9 y 318–319)",
      "cifra": "banco general, velas",
      "archivo": "e00_bancos/bancos.json",
      "impreso": 12000,
@@ -19,7 +19,7 @@
      "ok": true
     },
     {
-     "figura": "Bancos (págs. 9 y 309)",
+     "figura": "Bancos (págs. 9 y 318–319)",
      "cifra": "banco de 14.2, velas",
      "archivo": "e00_bancos/bancos.json",
      "impreso": 15000,
@@ -27,7 +27,7 @@
      "ok": true
     },
     {
-     "figura": "Bancos (págs. 9 y 309)",
+     "figura": "Bancos (págs. 9 y 318–319)",
      "cifra": "banco de 8.3, velas",
      "archivo": "e00_bancos/bancos.json",
      "impreso": 96000,
@@ -38,7 +38,7 @@
   },
   {
    "figura": "3.6.3 · precisión y caja 16",
-   "paginas_428p": "94–97",
+   "paginas_452p": "98–101",
    "carpeta": "resultados/e01_precision_3_6",
    "archivos": {
     "e01_precision_3_6/precision_3_6.md": "c308c0b9b052424bdc9326ab7c1bcb1486eaf3bf2b9caf441043f20b548855b3",
@@ -46,7 +46,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "z²·p(1−p)/e², e = 0,05",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 384.16,
@@ -54,7 +54,15 @@
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
+     "cifra": "mínimo entero con e = 0,05",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 385,
+     "calculado": 385,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "e = 0,02",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 2401,
@@ -62,7 +70,7 @@
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "e = 0,10",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 96.04,
@@ -70,7 +78,15 @@
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
+     "cifra": "mínimo entero con e = 0,10",
+     "archivo": "e01_precision_3_6/resultados_3_6.json",
+     "impreso": 97,
+     "calculado": 97,
+     "ok": true
+    },
+    {
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "martillos (k = 2) en 12.000 velas",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 49,
@@ -78,7 +94,7 @@
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "una de cada",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 245,
@@ -86,15 +102,15 @@
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
-     "cifra": "245 × 384",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
+     "cifra": "245 × 385",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
-     "impreso": 94080,
-     "calculado": 94080,
+     "impreso": 94325,
+     "calculado": 94325,
      "ok": true
     },
     {
-     "figura": "3.6.3 y caja 16",
+     "figura": "3.6.3 y caja 16 (págs. 99–101)",
      "cifra": "margen con 49",
      "archivo": "e01_precision_3_6/resultados_3_6.json",
      "impreso": 0.14,
@@ -105,7 +121,7 @@
   },
   {
    "figura": "7.3.1 · matriz de 18 osciladores",
-   "paginas_428p": "166–170",
+   "paginas_452p": "174–178",
    "carpeta": "resultados/e02_matriz_osciladores_7_3",
    "archivos": {
     "e02_matriz_osciladores_7_3/matriz_osciladores_153_parejas.csv": "1a3b02d5c60dda3c6757361febbf58a1d9d30a4816c29fedb7f036b8ed781b03",
@@ -114,7 +130,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "osciladores",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 18,
@@ -122,7 +138,7 @@
      "ok": true
     },
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "parejas",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 153,
@@ -130,7 +146,7 @@
      "ok": true
     },
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "series por celda",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 60,
@@ -138,7 +154,7 @@
      "ok": true
     },
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "r estocástico–RSI",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 0.68,
@@ -146,7 +162,7 @@
      "ok": true
     },
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "r CMO–RSI",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 0.81,
@@ -154,7 +170,7 @@
      "ok": true
     },
     {
-     "figura": "7.3.1",
+     "figura": "7.3.1 (pág. 176)",
      "cifra": "r MACD–RSI",
      "archivo": "e02_matriz_osciladores_7_3/resultados_7_3.json",
      "impreso": 0.62,
@@ -164,8 +180,8 @@
    ]
   },
   {
-   "figura": "7.4.1 · divergencias",
-   "paginas_428p": "171–173",
+   "figura": "7.4.2 · divergencias contra su base",
+   "paginas_452p": "179–183",
    "carpeta": "resultados/e03_divergencias_7_4",
    "archivos": {
     "e03_divergencias_7_4/eventos_divergencias_regulares.csv": "8b8b9503f115578f86fc4340587162f1334306523497ca37e1c1249f33b9cea8",
@@ -175,7 +191,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "alcistas regulares N",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 117,
@@ -183,7 +199,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "alcista sube %",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 42.74,
@@ -191,7 +207,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "base alcista %",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 40.84,
@@ -199,7 +215,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "Δ alcista pp",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 1.89,
@@ -207,7 +223,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "IC alcista inferior",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": -4.85,
@@ -215,7 +231,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "IC alcista superior",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 8.56,
@@ -223,7 +239,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "p alcista",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 0.568,
@@ -231,7 +247,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "bajistas regulares N",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 155,
@@ -239,7 +255,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "bajista baja %",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 26.45,
@@ -247,7 +263,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "base bajista %",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 20.07,
@@ -255,7 +271,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "Δ bajista pp",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 6.38,
@@ -263,7 +279,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "IC bajista inferior",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": -0.37,
@@ -271,7 +287,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "IC bajista superior",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 12.55,
@@ -279,7 +295,7 @@
      "ok": true
     },
     {
-     "figura": "7.4.1",
+     "figura": "7.4.2 (págs. 180–182)",
      "cifra": "p bajista",
      "archivo": "e03_divergencias_7_4/resultados_7_4.json",
      "impreso": 0.054,
@@ -290,7 +306,7 @@
   },
   {
    "figura": "8.3.1 · compresión del ATR%",
-   "paginas_428p": "194–198",
+   "paginas_452p": "201–205",
    "carpeta": "resultados/e04_compresion_8_3",
    "archivos": {
     "e04_compresion_8_3/diagnostico_estado_vs_contraccion_8_3.md": "7766055f66827f49b001c34480250ac81278f4877c107bff44e2a9f7f5b68cff",
@@ -301,7 +317,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "compresiones",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 1925,
@@ -309,7 +325,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "controles",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 1822,
@@ -317,7 +333,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "ATR 20 / ATR 0, compresión",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 1.052,
@@ -325,7 +341,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "ATR 20 / ATR 0, control",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.991,
@@ -333,7 +349,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "Δ ATR",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.06,
@@ -341,7 +357,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ ATR inferior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.054,
@@ -349,7 +365,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ ATR superior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.066,
@@ -357,7 +373,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "p Δ ATR < 0,001",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": "<0.001",
@@ -365,7 +381,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "recorrido absoluto %, compresión",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 2.609,
@@ -373,7 +389,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "recorrido absoluto %, control",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 2.581,
@@ -381,7 +397,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "Δ recorrido",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.028,
@@ -389,7 +405,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ recorrido inferior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": -0.046,
@@ -397,7 +413,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ recorrido superior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.093,
@@ -405,7 +421,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "sube %, compresión",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 72.99,
@@ -413,7 +429,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "sube %, control",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 76.61,
@@ -421,7 +437,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "Δ sube pp",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": -3.62,
@@ -429,7 +445,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ sube inferior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": -5.9,
@@ -437,7 +453,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "IC Δ sube superior",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": -1.14,
@@ -445,7 +461,7 @@
      "ok": true
     },
     {
-     "figura": "8.3.1",
+     "figura": "8.3.1 (págs. 202–203)",
      "cifra": "p sube",
      "archivo": "e04_compresion_8_3/resultados_8_3.json",
      "impreso": 0.003,
@@ -455,8 +471,8 @@
    ]
   },
   {
-   "figura": "9.2 y 9.2.2 · Fibonacci, 28 tríos",
-   "paginas_428p": "209–213",
+   "figura": "9.2 y 9.2.2 · Fibonacci, 28 tríos (fig. 9.2.2, pág. 219)",
+   "paginas_452p": "215–221",
    "carpeta": "resultados/e05_fibonacci_9_2",
    "archivos": {
     "e05_fibonacci_9_2/resultados_9_2.json": "e29a03ff181d6e397e193b42eea65a449a34915747714c2a817c33202e3f9f6e",
@@ -465,7 +481,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "tríos",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 28,
@@ -473,7 +489,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "excluidos",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 4,
@@ -481,7 +497,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "medibles",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 24,
@@ -489,7 +505,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "superan el 100 %",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 13,
@@ -497,7 +513,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "elegibles",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 11,
@@ -505,7 +521,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "toques",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 2,
@@ -513,7 +529,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "cobertura",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 0.12,
@@ -521,7 +537,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "esperados",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 1.32,
@@ -529,7 +545,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "P(X ≥ 2)",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 0.3873,
@@ -537,7 +553,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "media con niveles al azar",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 1.052,
@@ -545,7 +561,7 @@
      "ok": true
     },
     {
-     "figura": "9.2 (pág. 211) y 9.2.2",
+     "figura": "9.2 (pág. 217) y 9.2.2 (pág. 219)",
      "cifra": "p niveles al azar",
      "archivo": "e05_fibonacci_9_2/resultados_9_2.json",
      "impreso": 0.2872,
@@ -555,8 +571,8 @@
    ]
   },
   {
-   "figura": "14.2.1 y 14.2.2 · 464 variantes",
-   "paginas_428p": "312–317",
+   "figura": "14.2.1 y 14.2.3 · 464 variantes (y panel A de 14.2.2)",
+   "paginas_452p": "320–326",
    "carpeta": "resultados/e06_sobreajuste_14_2",
    "archivos": {
     "e06_sobreajuste_14_2/registro_464_variantes.csv": "517b7f6a8f6d887e0ff25809280bb677640090f370a321d25cfa1243fa1e2bef",
@@ -565,7 +581,7 @@
    },
    "cifras_impresas_comprobadas": [
     {
-     "figura": "14.2.1",
+     "figura": "14.2.1 (pág. 321)",
      "cifra": "combinaciones",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 480,
@@ -573,7 +589,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.1",
+     "figura": "14.2.1 (pág. 321)",
      "cifra": "válidas",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 464,
@@ -581,7 +597,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: R dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 0.2,
@@ -589,7 +605,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: ops dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 10,
@@ -597,7 +613,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: R fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": -0.556,
@@ -605,7 +621,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: ops fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 18,
@@ -613,7 +629,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: rápida",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 20,
@@ -621,7 +637,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "sin mínimo: lenta",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 30,
@@ -629,7 +645,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: R dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 0.032,
@@ -637,7 +653,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: ops dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 93,
@@ -645,7 +661,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: R fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": -0.228,
@@ -653,7 +669,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: ops fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 101,
@@ -661,7 +677,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: rápida",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 5,
@@ -669,7 +685,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 30: lenta",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 20,
@@ -677,7 +693,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: R dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": -0.017,
@@ -685,7 +701,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: ops dentro",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 242,
@@ -693,7 +709,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: R fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 0.004,
@@ -701,7 +717,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: ops fuera",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 255,
@@ -709,7 +725,7 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: rápida",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 15,
@@ -717,18 +733,756 @@
      "ok": true
     },
     {
-     "figura": "14.2.2",
+     "figura": "14.2.3 (pág. 323)",
      "cifra": "mínimo 100: lenta",
      "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
      "impreso": 20,
      "calculado": 20,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "A: 5 pb dentro",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": 0.187,
+     "calculado": 0.18719497081811914,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "A: 5 pb fuera",
+     "archivo": "e06_sobreajuste_14_2/resultados_14_2.json",
+     "impreso": -0.565,
+     "calculado": -0.5650613920916665,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "Tablas de consulta 7.1.a y 7.3.a; figs. 7.1.1 y 7.3.1",
+   "paginas_452p": "165–169, 174–178",
+   "carpeta": "resultados/e07_tablas_consulta_7_1_7_3",
+   "archivos": {
+    "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json": "6306d30985c21daccee0c51a6913e2a63b1742b9153f49827cc88a3b93de2409",
+    "e07_tablas_consulta_7_1_7_3/tablas_consulta_7_1_7_3.md": "a8ac33707324a767b3366d3f840a7b9545e11331782985e1ce288b644320db36"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 15: media_g",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.4643,
+     "calculado": 0.4642857142857143,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 15: media_p",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.2929,
+     "calculado": 0.2928571428571428,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 15: rs",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 1.585,
+     "calculado": 1.5853658536585369,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 15: rsi",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 61.32,
+     "calculado": 61.32075471698114,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 16: media_g",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.4311,
+     "calculado": 0.43112244897959184,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 16: media_p",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.3148,
+     "calculado": 0.3147959183673469,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 16: rs",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 1.37,
+     "calculado": 1.3695299837925448,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 16: rsi",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 57.8,
+     "calculado": 57.79753761969904,
+     "ok": true
+    },
+    {
+     "figura": "7.1.1 y tabla 7.1.a (pág. 167)",
+     "cifra": "sesión 17: rsi",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 59.06,
+     "calculado": 59.0639991834235,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r momentum–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.76,
+     "calculado": 0.764901,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r roc–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.74,
+     "calculado": 0.738472,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r williams–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.72,
+     "calculado": 0.724794,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r stochrsi–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.64,
+     "calculado": 0.63828,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r ppo–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.6,
+     "calculado": 0.604748,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r cci–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.58,
+     "calculado": 0.580938,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r coppock–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.58,
+     "calculado": 0.578352,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r rvi–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.57,
+     "calculado": 0.572276,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r uo–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.56,
+     "calculado": 0.558508,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r fisher–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.55,
+     "calculado": 0.5491,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r ao–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.49,
+     "calculado": 0.491336,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r kst–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.41,
+     "calculado": 0.407001,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r trix–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.37,
+     "calculado": 0.36679,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel A: r dpo–RSI",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": -0.38,
+     "calculado": -0.383247,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: parejas con |r| ≥ 0,80",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 12,
+     "calculado": 12,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 1",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.99,
+     "calculado": 0.990517,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 2",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.92,
+     "calculado": 0.918524,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 3",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.9,
+     "calculado": 0.904562,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 4",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.89,
+     "calculado": 0.893555,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 5",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.88,
+     "calculado": 0.880926,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 6",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.87,
+     "calculado": 0.867661,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 7",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.86,
+     "calculado": 0.861755,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 8",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.86,
+     "calculado": 0.856723,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 9",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.84,
+     "calculado": 0.838674,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 10",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.82,
+     "calculado": 0.821696,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 11",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.82,
+     "calculado": 0.816307,
+     "ok": true
+    },
+    {
+     "figura": "7.3.1 (pág. 176)",
+     "cifra": "panel B: pareja 12",
+     "archivo": "e07_tablas_consulta_7_1_7_3/resultados_tablas_consulta.json",
+     "impreso": 0.81,
+     "calculado": 0.813439,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "Apéndice A, caso 4 · fig. A.4d (simulación del perfil)",
+   "paginas_452p": "393–395",
+   "carpeta": "resultados/e08_caso_4_simulacion_perfil",
+   "archivos": {
+    "e08_caso_4_simulacion_perfil/barras_simulacion.csv": "7b86b08034254f2195454aa336abe2d6f606242303e20bf4f856199b20132c5e",
+    "e08_caso_4_simulacion_perfil/perfil_40_niveles.csv": "c5b83beeedb51cb7c40dc33c01864a1b150db28b209ea58fcaac2929d150cd44",
+    "e08_caso_4_simulacion_perfil/resumen_simulacion.json": "218701d81b44a42332d2df41ff76c9b567d1d31dac822f762e11a2a978eaeb1d",
+    "e08_caso_4_simulacion_perfil/verificacion_caso_4.json": "2acbb56c9e5c5cd58eb7ca9a9e01076e5258c505f8781fe971492906e4268900"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "POC",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5000.25,
+     "calculado": 5000.25,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "VAH",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5005.5,
+     "calculado": 5005.5,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "VAL",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 4993.5,
+     "calculado": 4993.5,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "niveles",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 40,
+     "calculado": 40,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "alto de nivel",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 1.5,
+     "calculado": 1.5,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "área de valor %",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 72.03,
+     "calculado": 72.02556208192509,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "VWAP",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5002.1,
+     "calculado": 5002.099464980544,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "+1σ",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5007.94,
+     "calculado": 5007.9395866084005,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "−1σ",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 4996.26,
+     "calculado": 4996.259343352689,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "+2σ",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5013.78,
+     "calculado": 5013.779708236257,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "−2σ",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 4990.42,
+     "calculado": 4990.419221724833,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "ATR(14)",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 6.89,
+     "calculado": 6.894196015442986,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "cierre 11:25",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5014.25,
+     "calculado": 5014.25,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "máximo balance inicial",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5040.0,
+     "calculado": 5040.0,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "mínimo balance inicial",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 4980.0,
+     "calculado": 4980.0,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "invalidación aceptación",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 5005.25,
+     "calculado": 5005.25,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "distancia ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 36,
+     "calculado": 36,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "riesgo ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 38,
+     "calculado": 38,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "obstáculo ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 103,
+     "calculado": 103.0,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "exigido ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 76,
+     "calculado": 76,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "riesgo por MES USD",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 47.5,
+     "calculado": 47.5,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "contratos",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 21,
+     "calculado": 21,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "1 R USD",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 997.5,
+     "calculado": 997.5,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "% del presupuesto",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 99.75,
+     "calculado": 99.75,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "rotación: obstáculo ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 1.88,
+     "calculado": 1.88,
+     "ok": true
+    },
+    {
+     "figura": "A.4d (pág. 394)",
+     "cifra": "rotación: exigido ticks",
+     "archivo": "e08_caso_4_simulacion_perfil/resumen_simulacion.json",
+     "impreso": 212,
+     "calculado": 212,
+     "ok": true
+    }
+   ]
+  },
+  {
+   "figura": "Casos dibujados en 7.4.1 y 14.2.2 (panel B)",
+   "paginas_452p": "181, 322",
+   "carpeta": "resultados/e09_casos_figuras_7_4_1_14_2_2",
+   "archivos": {
+    "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json": "2ce075d316ea21ca7c59cca631d8ead17cd871ad39a7422d04d94021d2317f84"
+   },
+   "cifras_impresas_comprobadas": [
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P1 vela",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 24,
+     "calculado": 24,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P1 mínimo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 99.67,
+     "calculado": 99.67,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P1 RSI",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 47.0,
+     "calculado": 47.04834667561858,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P2 vela",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 36,
+     "calculado": 36,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P2 mínimo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 98.33,
+     "calculado": 98.33,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: P2 RSI",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 61.2,
+     "calculado": 61.20734743899827,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: cierre t+3",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 101.11,
+     "calculado": 101.11,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: cierre t+23",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 103.21,
+     "calculado": 103.21000000000001,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "A: resultado a 20 velas %",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 2.08,
+     "calculado": 2.076945900504401,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: P1 mínimo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 65.21,
+     "calculado": 65.21000000000001,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: P1 RSI",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 14.0,
+     "calculado": 14.048702556549031,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: candidato vela",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 112,
+     "calculado": 112,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: candidato mínimo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 64.27,
+     "calculado": 64.27,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: candidato RSI",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 24.1,
+     "calculado": 24.1346672914254,
+     "ok": true
+    },
+    {
+     "figura": "7.4.1 (pág. 181)",
+     "cifra": "B: mínimo en t+3",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 63.67,
+     "calculado": 63.67,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: entrada",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 100.95,
+     "calculado": 100.95,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: stop",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 99.76,
+     "calculado": 99.76428571428572,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: objetivo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 102.14,
+     "calculado": 102.13571428571429,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: t+2 apertura",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 101.25,
+     "calculado": 101.25,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: t+2 máximo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 102.48,
+     "calculado": 102.48,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: t+2 mínimo",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 96.86,
+     "calculado": 96.86,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: t+2 cierre",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 98.46,
+     "calculado": 98.46000000000001,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: coste 5 pb en R",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": 0.043,
+     "calculado": 0.04256927710843378,
+     "ok": true
+    },
+    {
+     "figura": "14.2.2 (pág. 322)",
+     "cifra": "B: neto con 5 pb",
+     "archivo": "e09_casos_figuras_7_4_1_14_2_2/resultados_casos_figuras.json",
+     "impreso": -1.043,
+     "calculado": -1.0425692771084338,
      "ok": true
     }
    ]
   },
   {
    "figura": "Réplica SPY de 7.4 (no impresa)",
-   "paginas_428p": "—",
+   "paginas_452p": "—",
    "carpeta": "resultados/r01_divergencias_7_4_spy",
    "archivos": {
     "r01_divergencias_7_4_spy/resultados_replica_divergencias_spy.json": "6ea04fe0bf98a7791f20d4e74f950da44c7376c20875d5669e6724970d21123e",
@@ -738,7 +1492,7 @@
   },
   {
    "figura": "Réplica SPY de 8.3 (no impresa)",
-   "paginas_428p": "—",
+   "paginas_452p": "—",
    "carpeta": "resultados/r02_compresion_8_3_spy",
    "archivos": {
     "r02_compresion_8_3_spy/resultados_replica_compresion_spy.json": "9e8e9ac19124c87e5c8e27e80999a8ee4108c55b6c79cf053c73ecb8b4ba0ee9",
@@ -748,7 +1502,7 @@
   },
   {
    "figura": "Réplica SPY de 14.2, walk-forward con costes (no impresa)",
-   "paginas_428p": "—",
+   "paginas_452p": "—",
    "carpeta": "resultados/r03_walkforward_14_2_spy",
    "archivos": {
     "r03_walkforward_14_2_spy/resultados_replica_sobreajuste_spy.json": "3d0943c8a25f6452384ed3ac8ae101b624cb31a4cb24267176e90fe1c6f154ac",

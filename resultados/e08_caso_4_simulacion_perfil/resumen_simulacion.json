@@ -1,0 +1,195 @@
+{
+  "_ROTULO": "SIMULACIÓN DIDÁCTICA CONTROLADA · barras sintéticas, no datos de mercado",
+  "contrato": "MES ilustrativo (Micro E-mini S&P 500): 5 USD/punto, tick 0,25 = 1,25 USD; sin vencimiento ni fecha reales",
+  "sesion": "RTH sintética 09:30-16:00 ET; corte a las 11:30 ET; última barra cerrada, 11:25 (barra 23)",
+  "algoritmo": "11.4 de MC, copia literal de _perfil() del código de las figuras (fix a = min(niv-1, ...)); verificado con réplica exacta en fracciones",
+  "n_barras": 24,
+  "volumen_total": 102800,
+  "perfil": {
+    "minimo_ventana": "4980",
+    "maximo_ventana": "5040.0",
+    "niveles": 40,
+    "alto_nivel_puntos": "1.5",
+    "alto_nivel_ticks": "6",
+    "poc_nivel": 13,
+    "poc": "5000.25",
+    "vah": "5005.5",
+    "val": "4993.5",
+    "niveles_area": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "n_niveles_area": 8,
+    "volumen_area_exacto": "290764025/3927",
+    "cobertura_exacta": "11630561/16147824",
+    "cobertura_pct": "72.025562081925094056016463890119188814542442374898",
+    "umbral_pct": 70,
+    "empates_poc": [
+      13
+    ],
+    "empates_en_area": 0,
+    "pasos_area": [
+      [
+        "arriba",
+        14,
+        "2733250/187",
+        29.96755476155797
+      ],
+      [
+        "abajo",
+        12,
+        "4839850/357",
+        43.155300677044785
+      ],
+      [
+        "arriba",
+        15,
+        "5357350/561",
+        52.44483714957507
+      ],
+      [
+        "abajo",
+        11,
+        "3346400/357",
+        61.563192662986665
+      ],
+      [
+        "abajo",
+        10,
+        "1918400/357",
+        66.79049759274068
+      ],
+      [
+        "arriba",
+        16,
+        "1743575/561",
+        69.81382135450572
+      ],
+      [
+        "abajo",
+        9,
+        "811700/357",
+        72.0255620819251
+      ]
+    ],
+    "hvn_zonas": [
+      [
+        "4998.00",
+        "5002.50"
+      ]
+    ],
+    "lvn_zonas": [
+      [
+        "4980.00",
+        "4995.00"
+      ],
+      [
+        "5004.00",
+        "5008.50"
+      ],
+      [
+        "5013.00",
+        "5040.00"
+      ]
+    ],
+    "nodos_convencion": "HVN: niveles con >= 80 % del volumen del POC; LVN: niveles con <= 20 %; zonas contiguas; convención declarada solo para esta simulación, descriptiva, fuera de la regla 5.3"
+  },
+  "vwap": {
+    "vwap": "5002.0994649805447470817120622568093385214007782101",
+    "sigma": "5.8401216278559704034628793177375510439836685267747",
+    "-2σ": "4990.4192217248328062747863036213342364334334411566",
+    "-1σ": "4996.2593433526887766782491829390717874774171096833",
+    "+1σ": "5007.9395866084007174851749415745468895653844467369",
+    "+2σ": "5013.7797082362566878886378208922844406093681152636"
+  },
+  "atr14": {
+    "valor": "6.8941960154429864036954968751970194740849666442809",
+    "impreso": "6.89",
+    "nota": "Wilder; semilla = media simple de los 14 primeros rangos verdaderos; barra 0 sin cierre previo (rango)"
+  },
+  "niveles_escritos_impresos": {
+    "VWAP": "5002.10",
+    "VWAP +1σ": "5007.94",
+    "VWAP −1σ": "4996.26",
+    "VWAP +2σ": "5013.78",
+    "VWAP −2σ": "4990.42",
+    "POC": "5000.25",
+    "VAH": "5005.50",
+    "VAL": "4993.50",
+    "Máximo del balance inicial": "5040.00",
+    "Mínimo del balance inicial": "4980.00",
+    "Máximo de la sesión": "5040.00",
+    "Mínimo de la sesión": "4980.00"
+  },
+  "balance_inicial": {
+    "maximo": "5040.00",
+    "minimo": "4980.00"
+  },
+  "sesion_hasta_corte": {
+    "maximo": "5040.00",
+    "minimo": "4980.00"
+  },
+  "cierre_corte": "5014.25",
+  "posicion": {
+    "fuera_por_arriba": true,
+    "fuera_por_abajo": false,
+    "dentro": false,
+    "distancia_vwap": "12.15",
+    "distancia_vah": "8.75",
+    "distancia_poc": "14.00"
+  },
+  "escenarios": {
+    "aceptacion": {
+      "evaluable": true,
+      "cand_un_tick_dentro": "5005.25",
+      "cand_un_atr": "5007.25",
+      "cierre_menos_atr_sin_redondear": "5007.36",
+      "invalidacion": "5005.25",
+      "distancia_ticks": 36,
+      "distancia_puntos": "9.00",
+      "riesgo_ticks": 38,
+      "obstaculo": "Máximo de la sesión",
+      "obstaculo_precio": "5040.00",
+      "obstaculo_ticks": "103",
+      "exigido_ticks": 76,
+      "multiplo": "2.7105263157894736842105263157894736842105263157895",
+      "se_mantiene": true,
+      "riesgo_por_contrato": "47.50",
+      "contratos": 21,
+      "R1": "997.50",
+      "pct_presupuesto": "99.7500",
+      "dist_usd_contrato": "45.00",
+      "coste_usd_contrato": "2.50"
+    },
+    "rotacion": {
+      "evaluable": true,
+      "distancia_al_poc": "14.00",
+      "ref_nivel": "Máximo del balance inicial",
+      "ref_precio": "5040.00",
+      "invalidacion": "5040.25",
+      "distancia_ticks": 104,
+      "riesgo_ticks": 106,
+      "obstaculo": "VWAP +2σ",
+      "obstaculo_precio": "5013.78",
+      "obstaculo_ticks": "1.88",
+      "exigido_ticks": 212,
+      "multiplo": "0.017735849056603773584905660377358490566037735849057",
+      "se_mantiene": false
+    }
+  },
+  "contraste_regla_general_tradingview_mismos_40_niveles": {
+    "vah": "5005.5",
+    "val": "4995.0",
+    "cobertura_exacta": "11273413/16147824",
+    "cobertura_pct": "69.813821354505721637788472304379834707140726824865",
+    "nota": "regla general publicada por TradingView (para al no exceder el objetivo; empate: el más cercano al POC y, a igual distancia, arriba) aplicada a la misma tabla; no es lo que dibujaría la plataforma"
+  },
+  "presupuesto_max_usd": "1000",
+  "cuenta_ilustrativa_usd": "100000"
+}
